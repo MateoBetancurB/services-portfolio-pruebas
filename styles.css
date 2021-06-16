@@ -1,0 +1,184 @@
+:root {
+    --black: #020202;
+    --green: #226F54;
+    --blue1: #0D324D;
+    --blue2: #74b3ce;
+    --blue3: #214761;
+    --white: #ffffff;
+}
+
+body,
+.size-letter {
+    font-family: 'Fira Code', monospace, sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+
+/* comienzo-header */
+
+header {
+    background-color: var(--blue1);
+    color: var(--white);
+}
+
+.icons a i {
+    color: var(--white);
+}
+
+.icons a i:hover {
+    transform: scale(1.3);
+    transition: 300ms;
+}
+
+.container .size {
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+}
+
+
+/* fin-header */
+
+
+/* comienzo-section-skills */
+
+.section-skills {
+    background-color: var(--blue3);
+    color: var(--white);
+}
+
+
+/* fin-section-skills */
+
+
+/* comienzo section-experiencia */
+
+.background-experience {
+    background-color: var(--blue3);
+    color: var(--white);
+}
+
+.background-experience .negative-margin {
+    margin-top: -30px;
+}
+
+.border-bottom1 {
+    border-bottom: 3px solid white;
+    margin-bottom: 48px;
+}
+
+.section__skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    border-radius: 15px;
+    height: 10rem;
+    width: 11rem;
+    background-color: var(--blue1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.skills__h3 {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 20px;
+}
+
+.skills__h-3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    background-color: var(--blue3);
+}
+
+.experience-title {
+    margin-top: 1rem;
+    border-top: 3px solid #fff;
+    padding-top: 4rem;
+}
+
+
+/* fin section-experiencia */
+
+
+/* inicio form */
+
+.form {
+    background-color: var(--blue1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form .form-label {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.form .form-control {
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+.form .textarea {
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.form .form-button {
+    color: var(--white);
+    font-weight: bold;
+    background-color: var(--blue3);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form .form-button:hover {
+    background-color: var(--blue3);
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+
+/* fin form */
+
+
+/* inicio footer */
+
+.border-footer {
+    /* border-top: 1px solid black; */
+}
+
+.footer-background {
+    background-color: var(--blue1);
+}
+
+.alto {
+    height: 70px;
+}
+
+.vertical-text a {
+    color: white;
+}
+
+.vertical-text a:hover {
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.vertical-text {
+    line-height: 70px;
+}
+
+
+/* fin footer */
